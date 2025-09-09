@@ -6,7 +6,7 @@ function App() {
   const [newItem, setNewItem] = useState("");
   const [loading, setLoading] = useState(false); // loading state
 
-  const API_URL = "http://13.233.82.54:8081/api/items";
+  const API_URL = "http://13.233.195.36:8081/api/items";
 
   // Fetch items
   const fetchItems = async () => {
